@@ -1,0 +1,9 @@
+{% from 'logo/logo.njk' import logo %}
+
+<header class="header">
+  <div class="container header__container">
+    {{ logo({classes: 'header__logo'}) }}
+    {% include "main-nav/main-nav.njk" %}
+    {% include "burger/burger.njk" %}
+  </div>
+</header>

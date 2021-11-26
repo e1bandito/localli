@@ -1,0 +1,14 @@
+{% extends "layout/base.njk" %}
+
+{% set title = "Localli" %}
+
+{% from 'info/info.njk' import infoBlock %}
+
+{% block content %}
+  {% include "header/header.njk" %}
+  {% include "intro/intro.njk" %}
+  {% include "steps/steps.njk" %}
+  {{ infoBlock(infoFirst) }}
+  {{ infoBlock(infoSecond) }}
+  {% include "footer/footer.njk" %}
+{% endblock %}

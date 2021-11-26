@@ -1,0 +1,20 @@
+{% import 'mixins/mixins.njk' as mixins %}
+{% import 'btn/btn.njk' as buttons %}
+{% from 'title/title.njk' import title %}
+
+{% macro infoBlock(obj) %}
+  <section class="info {{ obj.mod }}">
+    <div class="container info__container">
+      <div class="info__inner">
+        <div class="info__desc">
+          {{ title(obj.title) }}
+          <p class="info__text">{{ obj.text | safe}}</p>
+          {{ buttons.linkBtn(obj.requestBtn) }}
+        </div>
+        <div class="info__pic">
+          {{ mixins.picture(obj.pic) }}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endmacro %}

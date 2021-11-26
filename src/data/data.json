@@ -1,0 +1,198 @@
+{
+	"footer": {
+		"text": "Same-day fullfilment & delivery for Shopify brands.",
+		"copy": "&#169; 2021 Localli LLC",
+		"lists": [
+			{
+				"title": "Links",
+				"list": [
+					"How it works",
+					"Pricing",
+					"Sign up"
+				]
+			},
+			{
+				"title": "Resources",
+				"list": [
+					"FAQ’s",
+					"Help Center",
+					"Blog"
+				]
+			},
+			{
+				"title": "Company",
+				"list": [
+					"About us",
+					"Privacy policy",
+					"Terms of use",
+					"Get in touch"
+				]
+			}
+		]
+	},
+	"intro": {
+		"title": {
+			"topText": "Introducing Localli",
+			"h1": true,
+			"bottomText": "Same-day Delivery <br> for Shopify Brands.",
+			"titleClasses": "intro__main-title"
+		},
+		"title2": {
+			"topText": "Introducing Localli",
+			"bottomText": "Localli operates a network of micro-fulfilment spaces across the country in major cities, down to your nearest neighborhood.",
+			"titleClasses": "intro__subtitle"
+		},
+		"requestBtn": {
+			"text": "Request Beta",
+			"url": "#",
+			"classes": "intro__request-btn"
+		},
+		"howItWorksBtn": {
+			"text": "How it works",
+			"url": "#steps",
+			"classes": "btn--transparent intro__works-btn"
+		},
+		"benefits": [
+			"Increase your store conversions",
+			"Offer an Amazon like delivery experience",
+			"Reduce your abandoned carts"
+		],
+		"pic": {
+			"img": "intro/intro",
+			"width": 1240,
+			"height": 528,
+			"alt": "We are delivery you products",
+			"lazy": false,
+			"mq": [
+				{
+					"value": 576,
+					"img": "intro/intro-mobile"
+				}
+			]
+		},
+		"pic2": {
+			"img": "intro/intro2",
+			"width": 817,
+			"height": 385,
+			"alt": "delivery scheme",
+			"mq": [
+				{
+					"value": 576,
+					"img": "intro/intro2-mobile"
+				}
+			]
+		}
+	},
+	"infoFirst": {
+		"mod": "info--first",
+		"title": {
+			"bottomText": "Custom Branded <br> Tracking Page.",
+			"titleClasses": "info__title"
+		},
+		"text": "Customize your tracking page and create unique upsell experiences within one page to&nbsp;increase your retention rate. You can also track your sales generated from the tracking page in&nbsp;our beautiful dashboard.",
+		"requestBtn": {
+			"text": "Request Beta",
+			"url": "#",
+			"classes": "info__request-btn"
+		},
+		"pic": {
+			"img": "info/1",
+			"width": 605,
+			"height": 342,
+			"alt": "Custom Branded Tracking Page.",
+			"lazy": true,
+			"mq": [
+				{
+					"value": 576,
+					"img": "info/1-mobile"
+				}
+			]
+		}
+	},
+	"infoSecond": {
+		"mod": "info--second",
+		"title": {
+			"topText": "Request a beta",
+			"bottomText": "Get started with <br> Localli today.",
+			"titleClasses": "info__title"
+		},
+		"text": "Localli is&nbsp;growing every month to&nbsp;offer delivery to&nbsp;your customers in as little as&nbsp;2-hours. As&nbsp;we&nbsp;expand, so&nbsp;do&nbsp;you.",
+		"requestBtn": {
+			"text": "Request Beta",
+			"url": "#",
+			"classes": "info__request-btn"
+		},
+		"pic": {
+			"img": "info/2",
+			"width": 549,
+			"height": 326,
+			"alt": "Custom Branded Tracking Page.",
+			"lazy": true,
+			"mq": [
+				{
+					"value": 576,
+					"img": "info/2-mobile"
+				}
+			]
+		}
+	},
+	"steps": {
+		"title": {
+			"topText": "How it works",
+			"bottomText": "Same-day delivery <br> in 3-simple steps.",
+			"titleClasses": "steps__main-title"
+		},
+		"list": [
+			{
+				"pic": {
+					"img": "steps/1",
+					"width": 354,
+					"height": 210,
+					"alt": "Connect & send inventory",
+					"lazy": true
+				},
+				"title": "1. Connect & send inventory",
+				"text": "Install our app and connect your store. Import your products and send your inventory to&nbsp;any of&nbsp;our facilities&nbsp;or&nbsp;your most popular delivered city."
+			},
+			{
+				"pic": {
+					"img": "steps/2",
+					"width": 218,
+					"height": 210,
+					"alt": "We sort and store",
+					"lazy": true
+				},
+				"title": "2. We sort and store",
+				"text": "Our team will sort and store your inventory at&nbsp;our micro-fulfilment centers positioned conveniently near your customers."
+			},
+			{
+				"pic": {
+					"img": "steps/3",
+					"width": 251,
+					"height": 210,
+					"alt": "Shipped & delivered within hours",
+					"lazy": true
+				},
+				"title": "3. Shipped & delivered within hours",
+				"text": "Once an&nbsp;order is&nbsp;placed, we&nbsp;pack and send your order&nbsp;out using local courier partners. All tracked conveniently through your custom tracking page."
+			}
+		]
+	},
+	"mainNav": [
+		{
+			"text": "How it works",
+			"url": "#steps",
+			"classes": "btn btn--transparent"
+		},
+		{
+			"text": "Pricing",
+			"url": "#",
+			"classes": "btn btn--transparent"
+		},
+		{
+			"text": "Request Beta",
+			"url": "#",
+			"classes": "btn"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+.intro {
+  padding-top: 15px;
+  padding-bottom: 30px;
+
+  @include min($lg) {
+    padding-top: 54px;
+    padding-bottom: 100px;
+  }
+
+  &__main-title {
+    margin-bottom: 15px;
+
+    @include min($lg) {
+      margin-bottom: 23px;
+    }
+
+    .title__bottom {
+      line-height: 1.25;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 45px;
+
+    @include min($lg) {
+      margin-bottom: 90px;
+    }
+
+    .title__bottom {
+      text-align: left;
+    }
+  }
+
+  &__text {
+    max-width: 717px;
+    margin: 0 auto 20px;
+    text-align: center;
+
+    @include min($lg) {
+      margin-bottom: 36px;
+    }
+  }
+
+  &__controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    @include min($lg) {
+      margin-bottom: 55px;
+    }
+  }
+
+  &__request-btn {
+    margin-right: 10px;
+  }
+
+  &__benefits-list {
+    @include lsr;
+    max-width: 330px;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include min($md) {
+      flex-direction: row;
+      max-width: 960px;
+    }
+  }
+
+  &__benefits-item {
+    position: relative;
+    color: var(--text-color-gray);
+    padding-left: 29px;
+    
+    &:not(:last-child) {
+      margin-bottom: 10px;
+
+      @include min($md) {
+        margin-bottom: 0;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 3px;
+      left: 0;
+      width: 19px;
+      height: 14px;
+      background-image: url('../img/check.svg');
+    }
+  }
+
+  &__top-img-wrap {
+    margin-bottom: 70px;
+  }
+
+  &__bottom-img-wrap {
+    max-width: 817px;
+    margin: 0 auto;
+    background-color: var(--color-white);
+  }
+}

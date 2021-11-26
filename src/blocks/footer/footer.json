@@ -1,0 +1,20 @@
+{
+  "footer": {
+    "text": "Same-day fullfilment & delivery for Shopify brands.",
+    "copy": "&#169; 2021 Localli LLC",
+    "lists": [
+      {
+        "title": "Links",
+        "list": ["How it works", "Pricing", "Sign up"]
+      },
+      {
+        "title": "Resources",
+        "list": ["FAQ’s", "Help Center", "Blog"]
+      },
+      {
+        "title": "Company",
+        "list": ["About us", "Privacy policy", "Terms of use", "Get in touch"]
+      }
+    ]
+  }
+}

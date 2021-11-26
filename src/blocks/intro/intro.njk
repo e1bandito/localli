@@ -1,0 +1,26 @@
+{% import 'btn/btn.njk' as buttons %}
+{% import 'mixins/mixins.njk' as mixins %}
+{% from 'title/title.njk' import title %}
+
+<section class="intro">
+  <div class="container intro__container">
+    {{ title(intro.title) }}
+    <p class="intro__text">Localli is&nbsp;a&nbsp;fulfilment &amp;&nbsp;delivery service that allows you to&nbsp;offer a&nbsp;same-day delivery experience for your customers conveniently from their checkout page.</p>
+    <div class="intro__controls">
+      {{buttons.linkBtn(intro.requestBtn)}}
+      {{buttons.linkBtn(intro.howItWorksBtn)}}
+    </div>
+    <ul class="intro__benefits-list">
+      {% for item in intro.benefits %}
+        <li class="intro__benefits-item">{{item}}</li>
+      {% endfor %}
+    </ul>
+    <div class="intro__top-img-wrap">
+      {{ mixins.picture(intro.pic) }}
+    </div>
+    {{ title(intro.title2) }}
+    <div class="intro__bottom-img-wrap">
+      {{ mixins.picture(intro.pic2) }}
+    </div>
+  </div>
+</section>

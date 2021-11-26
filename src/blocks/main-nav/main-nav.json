@@ -1,0 +1,19 @@
+{
+  "mainNav": [
+    {
+      "text": "How it works",
+      "url": "#steps",
+      "classes": "btn btn--transparent"
+    },
+    {
+      "text": "Pricing",
+      "url": "#",
+      "classes": "btn btn--transparent"
+    },
+    {
+      "text": "Request Beta",
+      "url": "#",
+      "classes": "btn"
+    }
+  ]
+}

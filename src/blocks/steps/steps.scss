@@ -1,0 +1,75 @@
+.steps {
+  background-color: var(--bg-color);
+  padding-top: 35px;
+  padding-bottom: 47px;
+
+  &__main-title {
+    margin-bottom: 40px;
+
+    @include min($lg) {
+      margin-bottom: 60px;
+    }
+
+    @include min($xl) {
+      margin-bottom: 95px;
+    }
+  }
+
+  &__list {
+    @include lsr;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include min($md) {
+      justify-content: space-around;
+    }
+
+    @include min($xl) {
+      justify-content: space-between;
+    }
+  }
+
+  &__item {
+    width: 100%;
+    max-width: 395px;
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+
+      @include min($xl) {
+        margin-bottom: 0;
+      }
+    }
+
+    @include min($md) {
+      width: calc((100% - 30px) / 2);
+    }
+
+    @include min($xl) {
+      width: calc((100% - 60px) / 3);
+    }
+  }
+
+  &__item-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 210px;
+    margin-bottom: 10px;
+
+    @include min($xl) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__item-title {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  &__item-text {
+    margin: 0;
+  }
+}

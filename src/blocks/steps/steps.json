@@ -1,0 +1,44 @@
+{
+  "steps": {
+    "title": {
+      "topText": "How it works",
+      "bottomText": "Same-day delivery <br> in 3-simple steps.",
+      "titleClasses": "steps__main-title"
+    },
+    "list": [
+      {
+        "pic": {
+          "img": "steps/1",
+          "width": 354,
+          "height": 210,
+          "alt": "Connect & send inventory",
+          "lazy": true
+        },
+        "title": "1. Connect & send inventory",
+        "text": "Install our app and connect your store. Import your products and send your inventory to&nbsp;any of&nbsp;our facilities&nbsp;or&nbsp;your most popular delivered city."
+      },
+      {
+        "pic": {
+          "img": "steps/2",
+          "width": 218,
+          "height": 210,
+          "alt": "We sort and store",
+          "lazy": true
+        },
+        "title": "2. We sort and store",
+        "text": "Our team will sort and store your inventory at&nbsp;our micro-fulfilment centers positioned conveniently near your customers."
+      },
+      {
+        "pic": {
+          "img": "steps/3",
+          "width": 251,
+          "height": 210,
+          "alt": "Shipped & delivered within hours",
+          "lazy": true
+        },
+        "title": "3. Shipped & delivered within hours",
+        "text": "Once an&nbsp;order is&nbsp;placed, we&nbsp;pack and send your order&nbsp;out using local courier partners. All tracked conveniently through your custom tracking page."
+      }
+    ]
+  }
+}

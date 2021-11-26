@@ -1,0 +1,20 @@
+{% macro icon(obj) %}
+  <svg width="{{ obj.width }}" height="{{ obj.height }}">
+    <use xlink:href="img/svg-sprite.svg#{{ obj.icon }}">
+  </svg>
+{% endmacro %}
+
+{% macro picture(obj) %}
+  <picture>
+    {% if obj.mq %}
+      {% for mq in obj.mq %}
+        <source type="image/avif" media="(max-width: {{ mq.value }}px)" srcset="img/{{ mq.img }}@2x.avif 2x,  img/{{ mq.img }}.avif 1x">
+        <source type="image/webp" media="(max-width: {{ mq.value }}px)" srcset="img/{{ mq.img }}@2x.webp 2x,  img/{{ mq.img }}.webp 1x">
+      {% endfor %}
+    {% endif %}
+    <source type="image/avif" srcset="img/{{ obj.img }}@2x.avif 2x,  img/{{ obj.img }}.avif 1x">
+    <source type="image/webp" srcset="img/{{ obj.img }}@2x.webp 2x,  img/{{ obj.img }}.webp 1x">
+    <source srcset="img/{{ obj.img }}@2x.jpg 2x,  img/{{ obj.img }}.jpg 1x">
+    <img src="img/{{ obj.img }}.jpg" alt="{{ obj.alt }}" width="{{ obj.width }}" height="{{ obj.height }}" {% if obj.lazy %} loading="lazy" {% endif %}>
+  </picture>
+{% endmacro %}

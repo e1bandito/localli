@@ -1,0 +1,19 @@
+.logo {
+  
+  @include min($md) {
+    width: 100px;
+    height: 35px;
+  }
+
+  @include min($lg) {
+    width: 112px;
+    height: 39px;
+  }
+
+  & svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

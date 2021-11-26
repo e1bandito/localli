@@ -1,0 +1,148 @@
+.footer {
+  padding-bottom: 30px;
+  
+  @include min($lg) {
+    padding-bottom: 40px;
+  }
+
+  &__inner {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+
+    @include min($sm) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    @include min($lg) {
+      padding-top: 40px;
+    }
+  }
+
+  &__info-col {
+    width: 200px;
+    color: var(--text-color-light-gray);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include min($sm) {
+      margin: 0;
+      margin-right: 15px;
+      width: 210px;
+      align-items: start;
+    }
+  }
+
+  &__logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+
+    @include min($md) {
+      width: 100px;
+    }
+
+    @include min($lg) {
+      width: 130px;
+    }
+  }
+
+  &__text {
+    margin: 0 0 20px 0;
+    text-align: center;
+
+    @include min($sm) {
+      text-align: left;
+    }
+  }
+
+  &__cp {
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+
+    @include min($sm) {
+      text-align: left;
+    }
+  }
+
+  &__nav-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    @include min($sm) {
+      margin-bottom: 0;
+      padding-top: 10px;
+    }
+
+    @include min($md) {
+      margin-right: 8px;
+    }
+  }
+
+  &__nav-item {
+    width: 45%;
+
+    @include min(430) {
+      width: 33.33%;
+    }
+
+    @include min($sm) {
+      width: auto;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+
+      @include min($sm) {
+        margin-bottom: 0;
+        margin-right: 20px;
+      }
+
+      @include min(620) {
+        margin-right: 35px;
+      }
+
+      @include min($md) {
+        margin-right: 50px;
+      }
+
+      @include min($lg) {
+        margin-right: 92px;
+      }
+    }
+  }
+
+  &__nav-item-title {
+    color: var(--text-color-light-gray);
+    font-size: 15px;
+    line-height: 1.28;
+    margin: 0 0 9px 0;
+    font-weight: 400;
+  }
+
+  &__list {
+    @include lsr;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+
+  &__item-link {
+    font-size: 15px;
+    color: var(--text-color-dark);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

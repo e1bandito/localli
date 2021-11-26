@@ -1,0 +1,12 @@
+{% macro title(obj) %}
+  <div class="title {{ obj.titleClasses }}">
+    {% if obj.topText %}
+      <p class="title__top">{{ obj.topText }}</p>
+    {% endif %}
+    {% if obj.h1 %}
+      <h1 class="title__bottom">{{ obj.bottomText | safe }}</h1>
+    {% else %}
+      <h2 class="title__bottom">{{ obj.bottomText | safe }}</h2>
+    {% endif %}
+  </div>
+{% endmacro %}

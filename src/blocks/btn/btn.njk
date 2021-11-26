@@ -1,0 +1,7 @@
+{% macro defaultBtn(obj) %}
+  <button class="btn {{obj.classes}}" type="{{obj.type}}">{{obj.text}}</button>
+{% endmacro %}
+
+{% macro linkBtn(obj) %}
+  <a href="{{obj.url}}" class="btn {{obj.classes}}">{{obj.text}}</a>
+{% endmacro %}

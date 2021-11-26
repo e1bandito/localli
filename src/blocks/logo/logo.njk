@@ -1,0 +1,7 @@
+{% import 'mixins/mixins.njk' as mixins %}
+
+{% macro logo(obj) %}
+  <div class="logo {{obj.classes}}">
+    {{ mixins.icon({width: 80, height: 28, icon: 'logo'}) }}
+  </div>  
+{% endmacro %}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    {% block head %}
+      {% include 'layout/head.njk' %}
+    {% endblock %}
+  </head>
+  <body>
+    <main class="main">
+      {% block content %}
+        This is the default content
+      {% endblock %}
+    </main>  
+    {% block scripts %}
+      {% include "layout/scripts.njk" %}
+    {% endblock%}
+  </body>
+</html>
+  
