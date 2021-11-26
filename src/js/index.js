@@ -1,3 +1,9 @@
-import burger from '../blocks/burger/burger';
+import Alpine from 'alpinejs'
+import burger from '../components/burger/burger';
 
-burger();
+Alpine.data('burger', burger);
+Alpine.start()
+
+window.addEventListener('burgerToggle', function(e) {
+  console.log(e.detail);
+})

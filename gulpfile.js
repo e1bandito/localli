@@ -110,7 +110,7 @@ gulp.task('template', (done) => {
       return JSON.parse(fs.readFileSync('./src/data/data.json'))
     }))
     .pipe(nunjucksRender({
-      path: ['src/blocks/', 'src/templates/']
+      path: ['src/blocks/', 'src/components/', 'src/templates/']
     }))
     .pipe(gulp.dest('build'))
     .pipe(server.stream());

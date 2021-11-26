@@ -35,5 +35,8 @@
     "sass": "^1.43.4",
     "webpack-stream": "^7.0.0",
     "yargs": "^17.2.1"
+  },
+  "dependencies": {
+    "alpinejs": "^3.5.2"
   }
 }

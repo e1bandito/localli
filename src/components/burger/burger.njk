@@ -1,4 +1,11 @@
-<button class="burger js-burger" type="button" aria-label="open the menu">
+<button 
+    x-data="burger" 
+    :class="open ? 'burger--open': ''" 
+    @click="toggle" 
+    class="burger" 
+    type="button" 
+    aria-label="open the menu"
+  >
   <span class="burger__line" aria-hidden="true"></span>
   <span class="burger__line" aria-hidden="true"></span>
   <span class="burger__line" aria-hidden="true"></span>
