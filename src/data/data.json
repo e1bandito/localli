@@ -1,36 +1,4 @@
 {
-	"faq": {
-		"title": {
-			"topText": "FAQ’s",
-			"bottomText": "Frequently asked questions.",
-			"titleClasses": "faq__title"
-		},
-		"accordion": {
-			"mod": "faq__accordion",
-			"list": [
-				{
-					"title": "How fast is same-day delivery?",
-					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
-				},
-				{
-					"title": "Is it expensive to offer same-day delivery?",
-					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
-				},
-				{
-					"title": "Where are these fulfilment centers located?",
-					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
-				},
-				{
-					"title": "How will customers be able to choose this delivery option?",
-					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
-				},
-				{
-					"title": "How can I get Localli?",
-					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
-				}
-			]
-		}
-	},
 	"expanding": {
 		"title": {
 			"bottomText": "Expanding to a city near&nbsp;you.",
@@ -48,6 +16,38 @@
 				{
 					"value": 576,
 					"img": "expanding/1-mobile"
+				}
+			]
+		}
+	},
+	"faq": {
+		"title": {
+			"topText": "FAQ’s",
+			"bottomText": "Frequently asked questions.",
+			"titleClasses": "faq__title"
+		},
+		"accordion": {
+			"mod": "faq__accordion",
+			"list": [
+				{
+					"title": "How fast is same-day delivery?",
+					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
+				},
+				{
+					"title": "Is it expensive to offer same-day delivery?",
+					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
+				},
+				{
+					"title": "Where are these fulfilment centers located?",
+					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
+				},
+				{
+					"title": "How will customers be able to choose this delivery option?",
+					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
+				},
+				{
+					"title": "How can I get Localli?",
+					"text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?"
 				}
 			]
 		}
@@ -82,59 +82,6 @@
 				]
 			}
 		]
-	},
-	"infoFirst": {
-		"mod": "info--first",
-		"title": {
-			"bottomText": "Custom Branded <br> Tracking Page.",
-			"titleClasses": "info__title"
-		},
-		"text": "Customize your tracking page and create unique upsell experiences within one page to&nbsp;increase your retention rate. You can also track your sales generated from the tracking page in&nbsp;our beautiful dashboard.",
-		"requestBtn": {
-			"text": "Request Beta",
-			"url": "#",
-			"classes": "info__request-btn"
-		},
-		"pic": {
-			"img": "info/1",
-			"width": 605,
-			"height": 342,
-			"alt": "Custom Branded Tracking Page.",
-			"lazy": true,
-			"mq": [
-				{
-					"value": 576,
-					"img": "info/1-mobile"
-				}
-			]
-		}
-	},
-	"infoSecond": {
-		"mod": "info--second",
-		"title": {
-			"topText": "Request a beta",
-			"bottomText": "Get started with <br> Localli today.",
-			"titleClasses": "info__title"
-		},
-		"text": "Localli is&nbsp;growing every month to&nbsp;offer delivery to&nbsp;your customers in as little as&nbsp;2-hours. As&nbsp;we&nbsp;expand, so&nbsp;do&nbsp;you.",
-		"requestBtn": {
-			"text": "Request Beta",
-			"url": "#",
-			"classes": "info__request-btn"
-		},
-		"pic": {
-			"img": "info/2",
-			"width": 549,
-			"height": 326,
-			"alt": "Custom Branded Tracking Page.",
-			"lazy": true,
-			"mq": [
-				{
-					"value": 576,
-					"img": "info/2-mobile"
-				}
-			]
-		}
 	},
 	"intro": {
 		"title": {
@@ -185,6 +132,59 @@
 				{
 					"value": 576,
 					"img": "intro/intro2-mobile"
+				}
+			]
+		}
+	},
+	"infoFirst": {
+		"mod": "info--first",
+		"title": {
+			"bottomText": "Custom Branded <br> Tracking Page.",
+			"titleClasses": "info__title"
+		},
+		"text": "Customize your tracking page and create unique upsell experiences within one page to&nbsp;increase your retention rate. You can also track your sales generated from the tracking page in&nbsp;our beautiful dashboard.",
+		"requestBtn": {
+			"text": "Request Beta",
+			"url": "#",
+			"classes": "info__request-btn"
+		},
+		"pic": {
+			"img": "info/1",
+			"width": 605,
+			"height": 342,
+			"alt": "Custom Branded Tracking Page.",
+			"lazy": true,
+			"mq": [
+				{
+					"value": 576,
+					"img": "info/1-mobile"
+				}
+			]
+		}
+	},
+	"infoSecond": {
+		"mod": "info--second",
+		"title": {
+			"topText": "Request a beta",
+			"bottomText": "Get started with <br> Localli today.",
+			"titleClasses": "info__title"
+		},
+		"text": "Localli is&nbsp;growing every month to&nbsp;offer delivery to&nbsp;your customers in as little as&nbsp;2-hours. As&nbsp;we&nbsp;expand, so&nbsp;do&nbsp;you.",
+		"requestBtn": {
+			"text": "Request Beta",
+			"url": "#",
+			"classes": "info__request-btn"
+		},
+		"pic": {
+			"img": "info/2",
+			"width": 549,
+			"height": 326,
+			"alt": "Custom Branded Tracking Page.",
+			"lazy": true,
+			"mq": [
+				{
+					"value": 576,
+					"img": "info/2-mobile"
 				}
 			]
 		}
