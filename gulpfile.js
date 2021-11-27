@@ -120,7 +120,7 @@ gulp.task('template', (done) => {
 // merge all data in blocks
 gulp.task('merge', () => {
   return gulp
-    .src('src/blocks/**/*.json')
+    .src(['src/blocks/**/*.json', 'src/components/**/*.json'])
     .pipe(plumber())
     .pipe(merge({
       fileName: 'data.json'
@@ -143,11 +143,15 @@ gulp.task('serve', () => {
     ui: false,
   });
   gulp.watch('src/blocks/**/*.+(html|nunjucks|njk)', gulp.series('merge', 'template'));
+  gulp.watch('src/components/**/*.+(html|nunjucks|njk)', gulp.series('merge', 'template'));
   gulp.watch('src/templates/**/*.+(html|nunjucks|njk)', gulp.series('merge', 'template'));
   gulp.watch('src/blocks/**/*.json', gulp.series('merge', 'template'));
+  gulp.watch('src/components/**/*.json', gulp.series('merge', 'template'));
   gulp.watch('src/blocks/**/*.+(scss|sass|css)', gulp.series('styles'));
+  gulp.watch('src/components/**/*.+(scss|sass|css)', gulp.series('styles'));
   gulp.watch('src/styles/**/*.+(scss|sass|css)', gulp.series('styles'));
   gulp.watch('src/blocks/**/*.js', gulp.series('js'));
+  gulp.watch('src/components/**/*.js', gulp.series('js'));
   gulp.watch('src/js/**/*.js', gulp.series('js'));
 });
 

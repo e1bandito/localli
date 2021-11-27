@@ -25,19 +25,24 @@
 
   </div>  
 
-    <nav class="main-nav js-main-nav">
+    <nav
+    x-data="mainNav"
+    @burger-toggle.window="toggle($event.detail)"
+    :class="open ? 'main-nav--open' : ''"
+    class="main-nav js-main-nav"
+  >
   <ul class="main-nav__list">
     
       <li class="main-nav__item">
-        <a href="#steps" class="main-nav__link btn btn--transparent">How it works</a>
+        <a href="#steps" @click="close" class="main-nav__link btn btn--transparent">How it works</a>
       </li>
     
       <li class="main-nav__item">
-        <a href="#" class="main-nav__link btn btn--transparent">Pricing</a>
+        <a href="#" @click="close" class="main-nav__link btn btn--transparent">Pricing</a>
       </li>
     
       <li class="main-nav__item">
-        <a href="#" class="main-nav__link btn">Request Beta</a>
+        <a href="#" @click="close" class="main-nav__link btn">Request Beta</a>
       </li>
     
   </ul>
@@ -45,7 +50,8 @@
     <button 
     x-data="burger" 
     :class="open ? 'burger--open': ''" 
-    @click="toggle" 
+    @click="toggle"
+    @close-nav.window="close" 
     class="burger" 
     type="button" 
     aria-label="open the menu"

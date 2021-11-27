@@ -1,7 +1,8 @@
 <button 
     x-data="burger" 
     :class="open ? 'burger--open': ''" 
-    @click="toggle" 
+    @click="toggle"
+    @close-nav.window="close" 
     class="burger" 
     type="button" 
     aria-label="open the menu"

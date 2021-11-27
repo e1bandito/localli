@@ -1,0 +1,14 @@
+<nav
+    x-data="mainNav"
+    @burger-toggle.window="toggle($event.detail)"
+    :class="open ? 'main-nav--open' : ''"
+    class="main-nav js-main-nav"
+  >
+  <ul class="main-nav__list">
+    {% for item in mainNav %}
+      <li class="main-nav__item">
+        <a href="{{item.url}}" @click="close" class="main-nav__link {{item.classes}}">{{item.text}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -136,23 +136,6 @@
 			]
 		}
 	},
-	"mainNav": [
-		{
-			"text": "How it works",
-			"url": "#steps",
-			"classes": "btn btn--transparent"
-		},
-		{
-			"text": "Pricing",
-			"url": "#",
-			"classes": "btn btn--transparent"
-		},
-		{
-			"text": "Request Beta",
-			"url": "#",
-			"classes": "btn"
-		}
-	],
 	"steps": {
 		"title": {
 			"topText": "How it works",
@@ -194,5 +177,22 @@
 				"text": "Once an&nbsp;order is&nbsp;placed, we&nbsp;pack and send your order&nbsp;out using local courier partners. All tracked conveniently through your custom tracking page."
 			}
 		]
-	}
+	},
+	"mainNav": [
+		{
+			"text": "How it works",
+			"url": "#steps",
+			"classes": "btn btn--transparent"
+		},
+		{
+			"text": "Pricing",
+			"url": "#",
+			"classes": "btn btn--transparent"
+		},
+		{
+			"text": "Request Beta",
+			"url": "#",
+			"classes": "btn"
+		}
+	]
 }
