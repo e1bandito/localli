@@ -7,6 +7,7 @@ const burger = () => ({
   },
   close() {
     this.open = false;
+    this.$dispatch('burger-toggle', this.open);
   }
 })
 

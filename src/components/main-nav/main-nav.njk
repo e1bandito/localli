@@ -1,6 +1,7 @@
 <nav
     x-data="mainNav"
     @burger-toggle.window="toggle($event.detail)"
+    @keyup.escape="toggle($event.detail)"
     :class="open ? 'main-nav--open' : ''"
     class="main-nav js-main-nav"
   >

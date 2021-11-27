@@ -28,6 +28,7 @@
     <nav
     x-data="mainNav"
     @burger-toggle.window="toggle($event.detail)"
+    @keyup.escape="toggle($event.detail)"
     :class="open ? 'main-nav--open' : ''"
     class="main-nav js-main-nav"
   >
@@ -51,7 +52,8 @@
     x-data="burger" 
     :class="open ? 'burger--open': ''" 
     @click="toggle"
-    @close-nav.window="close" 
+    @close-nav.window="close"
+    @keyup.escape="close"
     class="burger" 
     type="button" 
     aria-label="open the menu"
