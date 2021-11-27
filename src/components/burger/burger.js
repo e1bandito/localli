@@ -1,13 +1,24 @@
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+
 const burger = () => ({
-  open: false,
+  openBurger: false,
 
   toggle() {
-      this.open = !this.open;
-      this.$dispatch('burger-toggle', this.open);
+    if(this.openBurger) {
+      this.close();
+    } else {
+      this.open();
+    }
   },
   close() {
-    this.open = false;
-    this.$dispatch('burger-toggle', this.open);
+    this.openBurger = false;
+    this.$dispatch('burger-toggle', this.openBurger);
+    enableBodyScroll('body');
+  },
+  open() {
+    this.openBurger = true;
+    this.$dispatch('burger-toggle', this.openBurger);
+    disableBodyScroll('body');
   }
 })
 

@@ -1,6 +1,6 @@
 <button 
     x-data="burger" 
-    :class="open ? 'burger--open': ''" 
+    :class="openBurger ? 'burger--open': ''" 
     @click="toggle"
     @close-nav.window="close"
     @keyup.escape="close"
