@@ -4,11 +4,7 @@ const burger = () => ({
   openBurger: false,
 
   toggle() {
-    if(this.openBurger) {
-      this.close();
-    } else {
-      this.open();
-    }
+    this.openBurger ? this.close() : this.open();
   },
   close() {
     this.openBurger = false;

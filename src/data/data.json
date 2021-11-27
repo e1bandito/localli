@@ -83,59 +83,6 @@
 			}
 		]
 	},
-	"intro": {
-		"title": {
-			"topText": "Introducing Localli",
-			"h1": true,
-			"bottomText": "Same-day Delivery <br> for Shopify Brands.",
-			"titleClasses": "intro__main-title"
-		},
-		"title2": {
-			"topText": "Introducing Localli",
-			"bottomText": "Localli operates a network of micro-fulfilment spaces across the country in major cities, down to your nearest neighborhood.",
-			"titleClasses": "intro__subtitle"
-		},
-		"requestBtn": {
-			"text": "Request Beta",
-			"url": "#",
-			"classes": "intro__request-btn"
-		},
-		"howItWorksBtn": {
-			"text": "How it works",
-			"url": "#steps",
-			"classes": "btn--transparent intro__works-btn"
-		},
-		"benefits": [
-			"Increase your store conversions",
-			"Offer an Amazon like delivery experience",
-			"Reduce your abandoned carts"
-		],
-		"pic": {
-			"img": "intro/intro",
-			"width": 1240,
-			"height": 528,
-			"alt": "We are delivery you products",
-			"lazy": false,
-			"mq": [
-				{
-					"value": 576,
-					"img": "intro/intro-mobile"
-				}
-			]
-		},
-		"pic2": {
-			"img": "intro/intro2",
-			"width": 817,
-			"height": 385,
-			"alt": "delivery scheme",
-			"mq": [
-				{
-					"value": 576,
-					"img": "intro/intro2-mobile"
-				}
-			]
-		}
-	},
 	"infoFirst": {
 		"mod": "info--first",
 		"title": {
@@ -185,6 +132,59 @@
 				{
 					"value": 576,
 					"img": "info/2-mobile"
+				}
+			]
+		}
+	},
+	"intro": {
+		"title": {
+			"topText": "Introducing Localli",
+			"h1": true,
+			"bottomText": "Same-day Delivery <br> for Shopify Brands.",
+			"titleClasses": "intro__main-title"
+		},
+		"title2": {
+			"topText": "Introducing Localli",
+			"bottomText": "Localli operates a network of micro-fulfilment spaces across the country in major cities, down to your nearest neighborhood.",
+			"titleClasses": "intro__subtitle"
+		},
+		"requestBtn": {
+			"text": "Request Beta",
+			"url": "#",
+			"classes": "intro__request-btn"
+		},
+		"howItWorksBtn": {
+			"text": "How it works",
+			"url": "#steps",
+			"classes": "btn--transparent intro__works-btn"
+		},
+		"benefits": [
+			"Increase your store conversions",
+			"Offer an Amazon like delivery experience",
+			"Reduce your abandoned carts"
+		],
+		"pic": {
+			"img": "intro/intro",
+			"width": 1240,
+			"height": 528,
+			"alt": "We are delivery you products",
+			"lazy": false,
+			"mq": [
+				{
+					"value": 576,
+					"img": "intro/intro-mobile"
+				}
+			]
+		},
+		"pic2": {
+			"img": "intro/intro2",
+			"width": 817,
+			"height": 385,
+			"alt": "delivery scheme",
+			"mq": [
+				{
+					"value": 576,
+					"img": "intro/intro2-mobile"
 				}
 			]
 		}
