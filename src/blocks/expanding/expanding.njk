@@ -1,0 +1,11 @@
+{% import 'mixins/mixins.njk' as mixins %}
+{% from 'title/title.njk' import title %}
+
+<section class="expanding">
+  <div class="container expanding__container">
+    {{ title(expanding.title) }}
+    <p class="expanding__text">{{ expanding.text | safe }}</p>
+    <p class="expanding__location">{{ expanding.location | safe }}</p>
+    {{ mixins.picture(expanding.pic) }}
+  </div>
+</section>

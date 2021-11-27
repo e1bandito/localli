@@ -1,4 +1,25 @@
 {
+	"expanding": {
+		"title": {
+			"bottomText": "Expanding to a city near&nbsp;you.",
+			"titleClasses": "expanding__title"
+		},
+		"text": "Localli is&nbsp;growing every month to&nbsp;offer delivery to&nbsp;your customers in&nbsp;as little as&nbsp;2-hours. As&nbsp;we&nbsp;expand, so&nbsp;do&nbsp;you.",
+		"location": "Currently operating: Los Angeles and Miami",
+		"pic": {
+			"img": "expanding/1",
+			"width": 1028,
+			"height": 636,
+			"alt": "Expanding to a city near you",
+			"lazy": true,
+			"mq": [
+				{
+					"value": 576,
+					"img": "expanding/1-mobile"
+				}
+			]
+		}
+	},
 	"footer": {
 		"text": "Same-day fullfilment & delivery for Shopify brands.",
 		"copy": "&#169; 2021 Localli LLC",
