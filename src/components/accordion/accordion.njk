@@ -1,0 +1,22 @@
+{% macro accordion(obj) %}
+  <div class="accordion {{ obj.mod }}" x-data="accordion">
+    <ul class="accordion__list">
+      {% for item in obj.list %}
+        <li 
+            class="accordion__item"
+            :class="selected == {{ loop.index }} ? 'accordion__item--open' : ''"
+          >
+          <button 
+              @click="toggle({{ loop.index }})"
+              type="button"
+              class="accordion__title">{{ item.title }}
+            </button>
+          <p 
+              class="accordion__text"
+              :style="selected == {{ loop.index }} ? `max-height:  ${ $el.scrollHeight }px` : ``"
+            >{{ item.text }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endmacro %}

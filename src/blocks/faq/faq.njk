@@ -1,0 +1,9 @@
+{% from "title/title.njk" import title %}
+{% from "accordion/accordion.njk" import accordion %}
+
+<section class="faq">
+  <div class="container faq__container">
+    {{ title(faq.title) }}
+    {{ accordion(faq.accordion) }}
+  </div>
+</section>

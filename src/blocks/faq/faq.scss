@@ -1,0 +1,21 @@
+.faq {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @include min($lg) {
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
+
+  &__container {
+    max-width: 960px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+
+    @include min($lg) {
+      margin-bottom: 56px;
+    }
+  }
+}

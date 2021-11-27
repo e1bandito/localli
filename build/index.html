@@ -286,6 +286,105 @@
   </div>
 </section>
   
+
+
+<section class="faq">
+  <div class="container faq__container">
+    
+  <div class="title faq__title">
+    
+      <p class="title__top">FAQ’s</p>
+    
+    
+      <h2 class="title__bottom">Frequently asked questions.</h2>
+    
+  </div>
+
+    
+  <div class="accordion faq__accordion" x-data="accordion">
+    <ul class="accordion__list">
+      
+        <li 
+            class="accordion__item"
+            :class="selected == 1 ? 'accordion__item--open' : ''"
+          >
+          <button 
+              @click="toggle(1)"
+              type="button"
+              class="accordion__title">How fast is same-day delivery?
+            </button>
+          <p 
+              class="accordion__text"
+              :style="selected == 1 ? `max-height:  ${ $el.scrollHeight }px` : ``"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?</p>
+        </li>
+      
+        <li 
+            class="accordion__item"
+            :class="selected == 2 ? 'accordion__item--open' : ''"
+          >
+          <button 
+              @click="toggle(2)"
+              type="button"
+              class="accordion__title">Is it expensive to offer same-day delivery?
+            </button>
+          <p 
+              class="accordion__text"
+              :style="selected == 2 ? `max-height:  ${ $el.scrollHeight }px` : ``"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?</p>
+        </li>
+      
+        <li 
+            class="accordion__item"
+            :class="selected == 3 ? 'accordion__item--open' : ''"
+          >
+          <button 
+              @click="toggle(3)"
+              type="button"
+              class="accordion__title">Where are these fulfilment centers located?
+            </button>
+          <p 
+              class="accordion__text"
+              :style="selected == 3 ? `max-height:  ${ $el.scrollHeight }px` : ``"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?</p>
+        </li>
+      
+        <li 
+            class="accordion__item"
+            :class="selected == 4 ? 'accordion__item--open' : ''"
+          >
+          <button 
+              @click="toggle(4)"
+              type="button"
+              class="accordion__title">How will customers be able to choose this delivery option?
+            </button>
+          <p 
+              class="accordion__text"
+              :style="selected == 4 ? `max-height:  ${ $el.scrollHeight }px` : ``"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?</p>
+        </li>
+      
+        <li 
+            class="accordion__item"
+            :class="selected == 5 ? 'accordion__item--open' : ''"
+          >
+          <button 
+              @click="toggle(5)"
+              type="button"
+              class="accordion__title">How can I get Localli?
+            </button>
+          <p 
+              class="accordion__text"
+              :style="selected == 5 ? `max-height:  ${ $el.scrollHeight }px` : ``"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti excepturi praesentium incidunt similique distinctio perspiciatis consequatur laborum corrupti ratione, eius amet, ducimus, aliquam culpa molestiae veniam fugit vitae dolore?</p>
+        </li>
+      
+    </ul>
+  </div>
+
+  </div>
+</section>
+  
   <section class="info info--second">
     <div class="container info__container">
       <div class="info__inner">
